@@ -17,7 +17,8 @@
 
     <section id="home" class="hero">
       <img src="@/assets/images/profile.jpg" alt="Profile">
-      <div>
+
+      <div class="hero-content">
         <h1>Marcus U. Montero</h1>
         <p>BSIT student interested in web development.</p>
       </div>
@@ -125,16 +126,33 @@ nav a {
 
 .hero {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
   min-height: 90vh;
+  padding: 40px;
+  flex-wrap: wrap;
 }
 
 .hero img {
-  width: 50%;
+  width: 260px;        
+  height: 260px;
+  border-radius: 50%;
   object-fit: cover;
 }
 
-.hero div {
-  padding: 60px;
+.hero-content {
+  max-width: 400px;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #555;
 }
 
 .section {

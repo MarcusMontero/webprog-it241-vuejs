@@ -1,9 +1,15 @@
 <template>
-  <h1>VEGETA</h1>
-  <food-item/>
-  <food-item2/>
+  <div>
+    <food-item></food-item>
+    <food-item2></food-item2>
+  </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  name: 'App'
+}
+</script>
+
 
 <style></style>

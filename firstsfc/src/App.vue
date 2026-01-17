@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <food-item></food-item>
-    <food-item2></food-item2>
-  </div>
+  <h1>Personal Profile and VEGETA</h1>
+  <personal-profile/>
+  <food-item/>
+  <food-item2/>
 </template>
 
 <script>

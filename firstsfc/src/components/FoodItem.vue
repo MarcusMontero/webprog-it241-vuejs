@@ -11,7 +11,7 @@ export default {
     data() {
         return {
             name: 'Potato',
-            message: 'I love Potato',
+            message: 'I love Potatos',
             clicks: 0
         }
     },

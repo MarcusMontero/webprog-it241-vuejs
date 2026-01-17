@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style>
-  .santol {
+  .Patatas {
     border: dashed black 1px;
     display: inline-block;
     margin: 10px;
